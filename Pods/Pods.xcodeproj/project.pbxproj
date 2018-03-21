@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94E1AD7D9F987C092E89F74DB34D29FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA5CB65BB50E7AB45239F3B25C879C19 /* Pods-HomeLocDetect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F806959D685D455741A4F08495EE823F /* Pods-HomeLocDetect-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29BCE539FED8368F94A057F0C3ABCF61 /* Pods-HomeLocDetect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomeLocDetect.debug.xcconfig"; sourceTree = "<group>"; };
+		5806F7839C9EF39C430BA25BD742FE8B /* Pods-HomeLocDetect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomeLocDetect.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CC384EC911705C4A5889990488A1FD9 /* Pods-HomeLocDetect-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HomeLocDetect-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954F81A70F764A86B26C80250A596B85 /* Pods-HomeLocDetect-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HomeLocDetect-resources.sh"; sourceTree = "<group>"; };
+		A45417ACC39EF626AB3B8D5ABE595B5D /* Pods-HomeLocDetect-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HomeLocDetect-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7DEEF24CB15EB865B79B6CFA79CA4F4 /* libPods-HomeLocDetect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeLocDetect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF859D45AFF4EB15D14221287587CF67 /* EstimoteBluetoothScanning.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteBluetoothScanning.framework; path = EstimoteBluetoothScanning/EstimoteBluetoothScanning.framework; sourceTree = "<group>"; };
+		D00257D3B675DB773015DAC2FB1D1DB6 /* EstimoteProximitySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteProximitySDK.framework; path = EstimoteProximitySDK/EstimoteProximitySDK.framework; sourceTree = "<group>"; };
+		E4810B7B3D8E2C3CB8A20A9EE8EA7BCC /* Pods-HomeLocDetect-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HomeLocDetect-frameworks.sh"; sourceTree = "<group>"; };
+		F806959D685D455741A4F08495EE823F /* Pods-HomeLocDetect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HomeLocDetect-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7194D24380F107B1D51655C3B3DEF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E1AD7D9F987C092E89F74DB34D29FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B2C5B3C0C05FF481053914E5383C41 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98E276DC828C45C79FCD3DC8B8AFF2FC /* Pods-HomeLocDetect */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1A0B8AC6CC6EFC1226AB2DEA7ED16013 /* EstimoteProximitySDK */ = {
+			isa = PBXGroup;
+			children = (
+				E964A78A3874084A07B44C4985E363CB /* Frameworks */,
+			);
+			path = EstimoteProximitySDK;
+			sourceTree = "<group>";
+		};
+		32A3FCEF35B8396990139EA5EB736662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DEEF24CB15EB865B79B6CFA79CA4F4 /* libPods-HomeLocDetect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5990C09F2A9D53425459DB8337032814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0DEBC230E7948EF8398F6ABA968FBF0 /* EstimoteBluetoothScanning */,
+				1A0B8AC6CC6EFC1226AB2DEA7ED16013 /* EstimoteProximitySDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5990C09F2A9D53425459DB8337032814 /* Pods */,
+				32A3FCEF35B8396990139EA5EB736662 /* Products */,
+				03B2C5B3C0C05FF481053914E5383C41 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98E276DC828C45C79FCD3DC8B8AFF2FC /* Pods-HomeLocDetect */ = {
+			isa = PBXGroup;
+			children = (
+				6CC384EC911705C4A5889990488A1FD9 /* Pods-HomeLocDetect-acknowledgements.markdown */,
+				A45417ACC39EF626AB3B8D5ABE595B5D /* Pods-HomeLocDetect-acknowledgements.plist */,
+				F806959D685D455741A4F08495EE823F /* Pods-HomeLocDetect-dummy.m */,
+				E4810B7B3D8E2C3CB8A20A9EE8EA7BCC /* Pods-HomeLocDetect-frameworks.sh */,
+				954F81A70F764A86B26C80250A596B85 /* Pods-HomeLocDetect-resources.sh */,
+				29BCE539FED8368F94A057F0C3ABCF61 /* Pods-HomeLocDetect.debug.xcconfig */,
+				5806F7839C9EF39C430BA25BD742FE8B /* Pods-HomeLocDetect.release.xcconfig */,
+			);
+			name = "Pods-HomeLocDetect";
+			path = "Target Support Files/Pods-HomeLocDetect";
+			sourceTree = "<group>";
+		};
+		A0DEBC230E7948EF8398F6ABA968FBF0 /* EstimoteBluetoothScanning */ = {
+			isa = PBXGroup;
+			children = (
+				F31501CCB8914351F961D87DEFFB2225 /* Frameworks */,
+			);
+			path = EstimoteBluetoothScanning;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E964A78A3874084A07B44C4985E363CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00257D3B675DB773015DAC2FB1D1DB6 /* EstimoteProximitySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31501CCB8914351F961D87DEFFB2225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF859D45AFF4EB15D14221287587CF67 /* EstimoteBluetoothScanning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D1909B0AA162F50824EE93A58BE6E10 /* Pods-HomeLocDetect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5AC22FEC3A6E59FCF036636D079313 /* Build configuration list for PBXNativeTarget "Pods-HomeLocDetect" */;
+			buildPhases = (
+				0D65559BBD6EF713C1F9BAB5BFFE385A /* Sources */,
+				C7194D24380F107B1D51655C3B3DEF0E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HomeLocDetect";
+			productName = "Pods-HomeLocDetect";
+			productReference = A7DEEF24CB15EB865B79B6CFA79CA4F4 /* libPods-HomeLocDetect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 32A3FCEF35B8396990139EA5EB736662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D1909B0AA162F50824EE93A58BE6E10 /* Pods-HomeLocDetect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D65559BBD6EF713C1F9BAB5BFFE385A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5CB65BB50E7AB45239F3B25C879C19 /* Pods-HomeLocDetect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F65DA272A4FDC2DF947C23FEB0C2DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5806F7839C9EF39C430BA25BD742FE8B /* Pods-HomeLocDetect.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B5A78DBE571998053070754D3695E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		60EAF20000684F43FD5FBDABAEC9FC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BCE539FED8368F94A057F0C3ABCF61 /* Pods-HomeLocDetect.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD369323FD85CB26347C0D75C75D837F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5AC22FEC3A6E59FCF036636D079313 /* Build configuration list for PBXNativeTarget "Pods-HomeLocDetect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EAF20000684F43FD5FBDABAEC9FC02 /* Debug */,
+				1F65DA272A4FDC2DF947C23FEB0C2DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD369323FD85CB26347C0D75C75D837F /* Debug */,
+				49B5A78DBE571998053070754D3695E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
